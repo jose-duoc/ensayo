@@ -56,3 +56,9 @@ while ejecutando:
     #opcion 4: Viajes activos
     elif opcion == 4:
         print(f"\n[HISTORIAL] actualmente hay {viajes_activos} bicicleta(s) en uso por usuarios")
+    #opcion 5: salir
+    elif opcion == 5:
+        print("Gracias por utilizar nuestro software, hasta la próxima.")
+        ejecutando = False
+    else:
+        print("Opción fuera de rango")
