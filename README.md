@@ -1,16 +1,12 @@
-Para presentar ambos archivos como un único proyecto en GitHub, lo ideal es crear un README.md unificado que explique que el repositorio es una "Suite de Gestión Logística" o "Sistema de Operaciones".
-
-Aquí tienes la propuesta del README.md que integra ambos sistemas (Bicicletas + Equipaje):
-
-🛫 Sistema de Gestión Logística - Operaciones Combinadas
-Este repositorio contiene un conjunto de herramientas desarrolladas en Python para la automatización de procesos logísticos. El proyecto se divide en dos módulos principales: Gestión de Transporte Urbano (Bicicletas) y Registro de Carga Aérea (VuelosChile).
+🛫 Sistema de Gestión Logística - EVA 3
+Este repositorio contiene un conjunto de herramientas desarrolladas en Python para la automatización de procesos logísticos. El proyecto se divide en dos módulos principales: Gestión de Transporte Urbano (Bicicletas) y Registro de Carga Aérea (VuelosChile). 
 
 📁 Estructura del Proyecto
 El proyecto consta de los siguientes módulos independientes:
 
-gestion_bicis.py: Sistema de control de inventario y arriendo de bicicletas.
+bicicletas.py: Sistema de control de inventario y arriendo de bicicletas.
 
-registro_equipaje.py: Validador y clasificador de equipaje para aerolíneas.
+vuelos.py: Validador y clasificador de equipaje para aerolíneas.
 
 🚲 1. Sistema de Gestión de Bicicletas
 Diseñado para administrar una estación de bicicletas con capacidad limitada, controlando el flujo de usuarios.
